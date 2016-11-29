@@ -1,0 +1,26 @@
+LUIS CASTILLO, CPA
+Certified Public Accountant
+
+Our accounting practice remains on the cutting edge of tax law and financial trends.
+We are certified by the California Board of Accountancy and are well-informed and
+ continually adapt to the ever-changing world of tax law and accounting.
+Luis Castillo, CPA is an accounting practice in Southern California that serves both
+individuals and businesses with accounting, tax preparation, audit, consulting
+and other financial services which are tailored to the needs of each client.
+In addition, Luis Castillo CPA is a true believer that a business that has the
+ appropriate policies and procedures in place increases efficiencies and reduces costs
+ which ensures the best possible results and maximized returns. Therefore we encourage our
+ clients to develop and implement policies and procedures for their success.
+Our office is strategically located in downtown Fontana California. We provide services
+to clients in the San Bernardino County, Riverside, Orange, San Diego and Los Angeles County.
+
+
+8456 Sierra Ave., Ste. 110
+Fontana, CA 92335
+909-997-3081
+luis@luiscastillocpa.com
+
+so he currently uses a website builder that is hosted for free as part of his plan, so what im going to do is transfer ownership of his domain to my professional account,
+then host it on a server plan i'll get.
+That way I can use ftp to easily update files.
+But lets work on the front end and then we will worry about backend once that is finished.
