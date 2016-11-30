@@ -12,7 +12,7 @@
 }
 
 .cpa-header {
-    background-color: #3BAFDA;
+    /*background-color: #3BAFDA;*/
 }
 .calc-logo {
     width: 30%;
@@ -49,4 +49,10 @@
 
 .margin-b-20 {
     margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+    .contact-details {
+        text-align: center;
+    }
 }
