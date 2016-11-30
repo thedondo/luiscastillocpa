@@ -20,7 +20,7 @@
 
 #about {
     padding-top: 20px;
-    background-color: #CCD1D9;
+    /*background-color: #CCD1D9;*/
 }
 
 .about-title {
@@ -45,4 +45,8 @@
 
 .content {
     overflow: hidden;
+}
+
+.margin-b-20 {
+    margin-bottom: 20px;
 }
