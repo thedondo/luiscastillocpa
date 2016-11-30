@@ -17,3 +17,13 @@
 .calc-logo {
     width: 30%;
 }
+
+#about {
+    padding-top: 20px;
+    background-color: #CCD1D9;
+}
+
+.about-title {
+    float: left;
+    padding-right: 20px;
+}
