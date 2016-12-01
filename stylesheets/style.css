@@ -12,9 +12,15 @@
 }
 
 .luis-logo {
-    height: 100%;
+    height: 65px;
     padding-left: 15px;
+}
 
+.nav-link {
+    padding-top: 10px;
+    font-size: 20px;
+    letter-spacing: 3.5px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .cpa-header {
@@ -57,8 +63,18 @@
     margin-bottom: 20px;
 }
 
+.jony-edit {
+    margin-top: 25px;
+    border: none;
+    margin-bottom: 5px;
+}
+
 @media (max-width: 767px) {
     .contact-details {
         text-align: center;
     }
+}
+
+@@media (query) {
+
 }
