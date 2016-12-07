@@ -1,9 +1,17 @@
+a:link { color: #fff;}a:visited { color: #fff;}a:active {color:#000}a{text-decoration: none;}a:focus, a:hover { text-decoration: none;}
+
 .space-100 {
     /* Creates a space of 100px in height*/
     width: 100%;
     height: 100px;
 }
+.white-smoke {
+    background-color: #ECECEC;
+}
 
+.logo-blue {
+    background-color: #2980b9;
+}
 .navbar {
     margin-bottom: 0;
 }
@@ -24,22 +32,25 @@
 }
 
 .cpa-header {
-    /*background-color: #3BAFDA;*/
+
 }
 .calc-logo {
     width: 30%;
 }
 
 #about {
-    padding-top: 20px;
     /*background-color: #CCD1D9;*/
 }
 
 .about-title {
     float: left;
     padding-right: 20px;
+    text-transform: uppercase;
 }
 
+.sans-narrow-font {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
 .list-unstyled {
     padding-left: 0;
     list-style: none;

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/css/bootstrap.css">
     <!-- fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200" >
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
     <!-- For improved cross-browser rendering -->
     <link rel="stylesheet" href="/stylesheets/normalize.css">
     <link rel="stylesheet" href="/stylesheets/style.css">
@@ -33,7 +34,7 @@
             </div>
             <!-- Collect the nav links, forms and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav nav-link text-right" style="float:right">
+                <ul class="nav navbar-nav nav-link text-right sans-narrow-font" style="float:right">
                     <li><a class="nav-link" href="#about">About</a></li>
                     <li><a class="nav-link" href="#services">Services</a></li>
                     <li><a class="nav-link" href="#contact">Contact</a></li>
@@ -45,8 +46,8 @@
     <!-- end of navigation bar -->
 
     <!-- header for luic castillo cpa -->
-    <div class="space-100"></div>
-    <div class="container cpa-header">
+    <div class="space-100 white-smoke"></div>
+    <div class="container cpa-header white-smoke sans-narrow-font">
         <h1 class="text-center">LUIS CASTILLO</h1>
         <div class="text-center">
             <img class="calc-logo" src="/img/calculator.svg" alt="calculator logo">
@@ -57,10 +58,10 @@
 
     <!-- About section -->
     <section id="about">
-        <div class="space-100"></div>
-        <div class="container">
-            <span class="about-title"><h1>About</h1></span>
-            <p>
+        <div class="space-100 white-smoke"></div>
+        <div class="container white-smoke">
+            <span class="about-title sans-narrow-font"><h1>About</h1></span>
+            <p class="sans-narrow-font">
                 Our accounting practice remains on the cutting edge of tax law and financial trends. We are certified by the California Board of Accountancy and are well-informed and continually adapt to the ever-changing world of tax law and accounting. Luis Castillo,
                 CPA is an accounting practice in Southern California that serves both individuals and businesses with accounting, tax preparation, audit, consulting and other financial services which are tailored to the needs of each client. In addition,
                 Luis Castillo CPA is a true believer that a business that has the appropriate policies and procedures in place increases efficiencies and reduces costs which ensures the best possible results and maximized returns. Therefore we encourage
@@ -72,17 +73,17 @@
 
     <!-- Services Section -->
     <section id="services">
-        <div class="space-100"></div>
-        <div class="container">
+        <div class="space-100 white-smoke"></div>
+        <div class="container white-smoke">
             <div class="row">
                 <div class="col-sm-12">
-                    <h2 class="text-center">Services</h2>
+                    <h2 class="text-center sans-narrow-font">Services</h2>
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
-                    <ul class="row list-unstyled services-list">
+                    <ul class="row list-unstyled services-list sans-narrow-font">
 
                         <li class="col-sm-6">
                             <img class="services-logos" src="/img/analytics.svg" alt="audit icon">
@@ -131,23 +132,23 @@
 
     <!-- contact section -->
     <section id="contact" class="contact-section">
-        <div class="space-100"></div>
-        <div class="container">
+        <div class="space-100 white-smoke"></div>
+        <div class="container white-smoke">
             <div class="row">
-                <h2 class="text-center">Contact!</h2>
+                <h2 class="text-center sans-narrow-font">Contact!</h2>
             </div>
 
             <div class="row">
                 <div class="col-sm-6">
 
-                    <form method="post" action="#" class="xone-contact">
+                    <form method="POST" action="http://localhost:8080" class="xone-contact">
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="margin-b-20">
                                     <input type="text" name="name" class="form-control" placeholder="Full Name....">
                                 </div>
                                 <div class="margin-b-20">
-                                    <input type="email" name="email" class="form-control" placeholder="Email Address...">
+                                    <input type="email" name="_replyto" class="form-control" placeholder="Email Address...">
                                 </div>
                             </div>
                             <div class="col-sm-12">
@@ -157,7 +158,7 @@
 
                         <div class="row">
                             <div class="col-sm-12 text-center">
-                                <button type="submit" name="submit" class="btn btn-lg btn-skin-border btn-block margin-b-20">
+                                <button type="submit" name="submit" value="Send" class="btn btn-lg btn-skin-border btn-block margin-b-20">
                                     Send Message
                                 </button>
                             </div>
@@ -166,7 +167,7 @@
                 </div>
 
                 <div class="col-sm-5 col-sm-offset-1">
-                    <div class="contact-details">
+                    <div class="contact-details sans-narrow-font">
                         <p>
                             8456 Sierra Ave.
                             <br> Fontana CA 92335
@@ -184,7 +185,7 @@
 
     <!-- Location map Google Api -->
     <section id="location">
-        <div class="space-100"></div>
+        <div class="space-100 white-smoke"></div>
         <div id="map" style="width: 100%; height: 400px; position: relative; overflow: hidden;">
             <!-- google api key AIzaSyBiQ_l9RT5om6v3A8U_qtW-Y0An0q_OZhk -->
             <h3>My Google Maps Demo</h3>
@@ -212,18 +213,18 @@
     <!-- End of location Google Maps Api -->
 
     <!-- footer for the website -->
-    <footer class="footer">
+    <footer class="footer sans-narrow-font logo-blue">
         <div class="container">
             <div class="row">
                 <div class="col-sm-5 margin-b-20">
                     <span>Copyright © 2016 SoCalSolutions </span>
                 </div>
                 <div class="list-inline margin-b-20">
-                    <li><a href="#Home">Home</a></li>
-                    <li><a href="#About">About</a></li>
-                    <li><a href="#Services">Services</a></li>
-                    <li><a href="#Contact">Contact</a></li>
-                    <li><a href="#Location">Location</a></li>
+                    <li><a class="no-style" href="#Home">Home</a></li>
+                    <li><a class="no-style" href="#About">About</a></li>
+                    <li><a class="no-style" href="#Services">Services</a></li>
+                    <li><a class="no-style" href="#Contact">Contact</a></li>
+                    <li><a class="no-style" href="#Location">Location</a></li>
                 </div>
             </div>
         </div>
