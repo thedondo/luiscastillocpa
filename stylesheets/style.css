@@ -12,8 +12,11 @@ a:link { color: #fff;}a:visited { color: #fff;}a:active {color:#000}a{text-decor
 .logo-blue {
     background-color: #2980b9;
 }
+
+
 .navbar {
     margin-bottom: 0;
+    border: none;
 }
 .navbar-brand {
     padding: 0;
@@ -31,15 +34,8 @@ a:link { color: #fff;}a:visited { color: #fff;}a:active {color:#000}a{text-decor
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-.cpa-header {
-
-}
 .calc-logo {
     width: 30%;
-}
-
-#about {
-    /*background-color: #CCD1D9;*/
 }
 
 .about-title {
