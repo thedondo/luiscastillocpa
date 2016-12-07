@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Luis Castillo CPA</title>
+    <meta name="description" content="Luis Castillo CPA, A Certified Public Accountant, Fontana, California">
+    <title>Luis Castillo CPA - Certified Public Accountant</title>
     <link rel="stylesheet" href="/css/bootstrap.css">
     <!-- fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200" >
@@ -49,7 +50,7 @@
     <div class="container cpa-header white-smoke sans-narrow-font">
         <h1 class="text-center">LUIS CASTILLO</h1>
         <div class="text-center">
-            <img class="calc-logo" src="/img/calculator.svg" alt="calculator logo">
+            <img class="lccpa-logo" src="/img/lccpa.svg" alt="calculator logo">
         </div>
         <h1 class="text-center">CERTIFIED PUBLIC ACCOUNTANT</h1>
     </div>
@@ -60,7 +61,7 @@
         <div class=" white-smoke"></div>
         <div class="container white-smoke">
             <span class="about-title sans-narrow-font"><h1>About</h1></span>
-            <p class="sans-narrow-font">
+            <p class="sans-narrow-font font-size-18">
                 Our accounting practice remains on the cutting edge of tax law and financial trends. We are certified by the California Board of Accountancy and are well-informed and continually adapt to the ever-changing world of tax law and accounting. Luis Castillo,
                 CPA is an accounting practice in Southern California that serves both individuals and businesses with accounting, tax preparation, audit, consulting and other financial services which are tailored to the needs of each client. In addition,
                 Luis Castillo CPA is a true believer that a business that has the appropriate policies and procedures in place increases efficiencies and reduces costs which ensures the best possible results and maximized returns. Therefore we encourage
@@ -81,14 +82,14 @@
             </div>
 
             <div class="row">
-                <div class="col-md-8 col-md-offset-2">
+                <div class="col-lg-8 col-md-offset-2">
                     <ul class="row list-unstyled services-list sans-narrow-font">
 
                         <li class="col-sm-6">
                             <img class="services-logos" src="/img/analytics.svg" alt="audit icon">
                             <div class="content">
-                                <h4>Audits & Accounting</h4>
-                                <p>
+                                <h4>AUDITS & ACCOUNTING</h4>
+                                <p class="font-size-16">
                                     We do compilations, reviews, payroll <br> audits, sales and use tax.
                                 </p>
                             </div>
@@ -97,16 +98,16 @@
                         <li class="col-sm-6">
                             <img class="services-logos" src="/img/money.svg" alt="taxes icon">
                             <div class="content">
-                                <h4>Taxes</h4>
-                                <p>We do personal, business, and corporate taxes.<br> We also do tax resolutions and representations</p>
+                                <h4>TAXES</h4>
+                                <p class="font-size-16">We do personal, business, and corporate taxes.<br> We also do tax resolutions and representations</p>
                             </div>
                         </li>
 
                         <li class="col-sm-6">
                             <img class="services-logos" src="/img/legal.svg" alt="legal paperwork">
                             <div class="content">
-                                <h4>Startups</h4>
-                                <p>
+                                <h4>STARTUPS</h4>
+                                <p class="font-size-16">
                                     We help you provide company structure such <br> as C-Corporations, S-Corporations and <br> Limited Liablilty Corporation (LLC)
                                 </p>
                             </div>
@@ -115,8 +116,8 @@
                         <li class="col-sm-6">
                             <img class="services-logos" src="/img/businessman.svg" alt="consulting logo">
                             <div class="content">
-                                <h4>Consultating</h4>
-                                <p>
+                                <h4>CONSULTING</h4>
+                                <p class="font-size-16">
                                     Temporary staffing, personal training <br> form preparations and financial decisions <br> that can benefit you and your businesses.
                                 </p>
                             </div>
@@ -134,20 +135,20 @@
         <div class=" white-smoke"></div>
         <div class="container white-smoke">
             <div class="row">
-                <h2 class="text-center sans-narrow-font">Contact!</h2>
+                <h2 class="text-center sans-narrow-font">Contact</h2>
             </div>
 
             <div class="row">
                 <div class="col-sm-6">
 
-                    <form method="GET" action="#" class="xone-contact">
+                    <form id="contactForm">
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="margin-b-20">
                                     <input type="text" name="name" class="form-control" placeholder="Full Name....">
                                 </div>
                                 <div class="margin-b-20">
-                                    <input type="email" name="_replyto" class="form-control" placeholder="Email Address...">
+                                    <input type="text" name="_replyto" class="form-control" placeholder="Subject...">
                                 </div>
                             </div>
                             <div class="col-sm-12">
@@ -157,7 +158,7 @@
 
                         <div class="row">
                             <div class="col-sm-12 text-center">
-                                <button type="submit" name="submit" value="Send" class="btn btn-lg btn-skin-border btn-block margin-b-20">
+                                <button id="submit-button" type="submit" name="submit" value="Send" class="btn btn-lg btn-primary btn-block margin-b-20">
                                     Send Message
                                 </button>
                             </div>
@@ -166,14 +167,14 @@
                 </div>
 
                 <div class="col-sm-5 col-sm-offset-1">
-                    <div class="contact-details sans-narrow-font">
+                    <div class="contact-details sans-narrow-font font-size-20">
                         <p>
                             8456 Sierra Ave.
                             <br> Fontana CA 92335
                             <br> (909)997-3081
                         </p>
                         <p>
-                            <a href="#">luis@luiscastillocpa.com</a>
+                            <a class="email" href="mailto:luis@luiscastillocpa.com">luis@luiscastillocpa.com</a>
                         </p>
                     </div>
                 </div>
@@ -235,6 +236,22 @@
       async defer>
     </script>
     <script src="/js/bootstrap.js"></script>
+    <script>
+        var $ = window.jQuery;
+        var theForm = $("#contactForm");
+        theForm.on("submit", function(e) {
+            e.preventDefault();
+            var formData = theForm.serializeArray();
+            var LUISCASTILLOEMAIL = "luis@luiscastillocpa.com";
+            var clientName = formData[0].value;
+            var clientSubject = formData[1].value;
+            var clientMsg = formData[2].value;
+
+            window.location.href =
+            "mailto:" + LUISCASTILLOEMAIL +
+            "?subject="+ clientSubject + "&body=" + clientMsg + "\n" + "- " + clientName;
+        });
+    </script>
 </body>
 
 </html>
